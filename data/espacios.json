@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Aula 101",
+        "tipo": "Aula",
+        "imagen": "img/aula.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Laboratorio de Física",
+        "tipo": "Laboratorio",
+        "imagen": "img/laboratorio.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Cancha principal",
+        "tipo": "Cancha",
+        "imagen": "img/cancha.jpg"
+    }
+]

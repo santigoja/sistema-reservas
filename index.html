@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reservas Universitarias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Reservas Universitarias</h1>
+    </header>
+
+    <main>
+        <!-- Sección del formulario -->
+        <section id="formulario-reserva">
+            <h2>Crear una nueva reserva</h2>
+            <form id="reservaForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+
+                <label for="espacio">Espacio:</label>
+                <select id="espacio" required></select>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" required>
+
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+
+        <!-- Sección de lista de reservas -->
+        <section id="lista-reservas">
+            <h2>Reservas actuales</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Espacio</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaReservas"></tbody>
+            </table>
+        </section>
+
+        <!-- Sección para mostrar imagen del espacio -->
+        <section id="imagen-espacio">
+            <h2>Vista del espacio seleccionado</h2>
+            <img id="preview" src="" alt="Selecciona un espacio para ver la imagen">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Sistema de Reservas Universitarias</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
